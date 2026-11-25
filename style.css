@@ -1,0 +1,201 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px auto;
+  background-color: rgb(242, 196, 242);
+}
+
+.logo {
+  padding: 15px;
+  font-style: italic;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+  height: 100dvh;
+  width: 70%;
+  color: black;
+  position: fixed;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  padding: 10px;
+  gap: 0.5rem;
+}
+
+.packages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+
+.active {
+  display: flex;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.nav .end {
+  display: flex;
+}
+
+.nav .end a {
+  background: rgb(242, 196, 242);
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.end {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.first-part {
+  margin-top: 15%;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(246, 240, 240);
+}
+
+#write {
+  color: rgb(173, 72, 173);
+}
+
+#top {
+  color: grey;
+}
+
+.first-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.prime {
+  margin-top: 7%;
+}
+
+.price {
+  margin-top: 7%;
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  width: 90px;
+  border: none;
+  background-color: rgb(242, 196, 242);
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.second-part {
+  padding: 5%;
+  width: 100%;
+}
+
+.head {
+  justify-items: center;
+}
+
+.tip {
+  color: rgb(173, 72, 173);
+}
+
+.node {
+  text-align: center;
+}
+
+.box {
+  background-color: rgb(246, 240, 240);
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 8%;
+}
+
+.content {
+  margin-top: 8%;
+  padding: 5%;
+}
+
+.master {
+    margin-top: 8%;
+}
+
+
+.below {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.below button {
+  padding: 10px;
+}
+
+.third-part {
+  background-color: rgb(173, 72, 173);
+  padding: 5%;
+  width: 100%;
+}
+
+#box {
+  background-color: rgb(199, 112, 199);
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 8%;
+}
+
+.diff {
+  margin-top: 15%;
+  line-height: 0;
+  text-align: center;
+}
+
+@media (min-width: 1440px) and (max-width: 2496px) {
+}
+
+/* tale */
+
+@media (min-width: 800px) and (max-width: 1440px) {
+  .first-part {
+    margin-top: 5%;
+    gap: 10rem;
+  }
+
+  .ring {
+    max-width: 900px;
+  }
+
+  .first-img img {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+  }
+}
