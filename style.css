@@ -56,13 +56,13 @@ header {
   display: flex;
 }
 
-.nav .end a {
+/* .nav .end a {
   background: rgb(242, 196, 242);
   padding: 10px;
   width: 100%;
   text-align: center;
   border-radius: 5px;
-}
+} */
 
 .end {
   display: flex;
@@ -119,6 +119,10 @@ button {
 .head {
   justify-items: center;
 }
+
+ .head h3{
+  text-align:center;
+} 
 
 .tip {
   color: rgb(173, 72, 173);
