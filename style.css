@@ -1,6 +1,6 @@
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -33,14 +33,35 @@ header {
   gap: 0.5rem;
 }
 
-.packages {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
+.hero {
+  margin-top: 15%;
+  padding: 10px;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 
+.price {
+  gap: 1rem;
+  display: flex;
+}
+
+.price button {
+  width: 100%;
+  padding: 10px;
+}
+
+
+.packages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
 
 .active {
   display: flex;
@@ -56,27 +77,9 @@ header {
   display: flex;
 }
 
-/* .nav .end a {
-  background: rgb(242, 196, 242);
-  padding: 10px;
-  width: 100%;
-  text-align: center;
-  border-radius: 5px;
-} */
-
 .end {
   display: flex;
   gap: 0.4rem;
-}
-
-.first-part {
-  margin-top: 15%;
-  padding: 5%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  background-color: rgb(246, 240, 240);
 }
 
 #write {
@@ -87,20 +90,8 @@ header {
   color: grey;
 }
 
-.first-img img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
 .prime {
   margin-top: 7%;
-}
-
-.price {
-  margin-top: 7%;
-  display: flex;
-  gap: 1rem;
 }
 
 button {
@@ -120,9 +111,9 @@ button {
   justify-items: center;
 }
 
- .head h3{
-  text-align:center;
-} 
+.head h3 {
+  text-align: center;
+}
 
 .tip {
   color: rgb(173, 72, 173);
@@ -138,6 +129,7 @@ button {
   padding: 8px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   margin-top: 8%;
+  width: 100%;
 }
 
 .content {
@@ -146,9 +138,8 @@ button {
 }
 
 .master {
-    margin-top: 8%;
+  margin-top: 8%;
 }
-
 
 .below {
   display: flex;
@@ -174,6 +165,7 @@ button {
   padding: 8px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   margin-top: 8%;
+  width: 100%;
 }
 
 .diff {
@@ -182,24 +174,20 @@ button {
   text-align: center;
 }
 
+/* Destop */
 @media (min-width: 1440px) and (max-width: 2496px) {
 }
 
-/* tale */
+/* tablet */
 
 @media (min-width: 800px) and (max-width: 1440px) {
-  .first-part {
-    margin-top: 5%;
-    gap: 10rem;
+
+  .packages {
+    gap: 2rem;
   }
 
-  .ring {
-    max-width: 900px;
-  }
-
-  .first-img img {
-    width: 70%;
-    height: auto;
-    border-radius: 10px;
+  .box,
+  #box {
+    max-width: 320px;
   }
 }
